@@ -1,0 +1,110 @@
+{
+	"name": "pf2e-mythic-adventures",
+	"title": "Pathfinder 2e Mythic Adventures",
+	"description": "<p>A compendium pack including all you need to play using u/HelpfulDrow's Mythic Adventures expansion.<p/>",
+	"author": "Vyklade",
+	"version": "0.0.1",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"system":[
+		"pf2e"
+	],
+	"packs": [
+		{
+		  "label": "Mythic Adventures",
+		  "type": "JournalEntry",
+		  "name": "mythic-adventures",
+		  "path": "packs/mythic-adventures.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "JournalEntry",
+		  "private": false
+		},
+		{
+		  "label": "MA - Soulrunes",
+		  "type": "Item",
+		  "name": "ma-soulrunes",
+		  "path": "packs/ma-soulrunes.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Item",
+		  "private": false
+		},
+		{
+		  "label": "MA - Myhic Features",
+		  "type": "Item",
+		  "name": "ma-myhic-features",
+		  "path": "packs/ma-myhic-features.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Item",
+		  "private": false
+		},
+		{
+		  "label": "Mythic Adventures Macros",
+		  "type": "Macro",
+		  "name": "mythic-adventures-macros",
+		  "path": "packs/mythic-adventures-macros.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Macro",
+		  "private": false
+		},
+		{
+		  "label": "MA - Aberrative Dreamer",
+		  "type": "Item",
+		  "name": "ma-aberrative-dreamer",
+		  "path": "packs/ma-aberrative-dreamer.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Item",
+		  "private": false
+		},
+		{
+		  "label": "MA - Mythic Spells",
+		  "type": "Item",
+		  "name": "ma-mythic-spells",
+		  "path": "packs/ma-mythic-spells.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Item",
+		  "private": false
+		},
+		{
+		  "label": "MA - Mythic Feats",
+		  "type": "Item",
+		  "name": "ma-mythic-feats",
+		  "path": "packs/ma-mythic-feats.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Item",
+		  "private": false
+		}
+	],
+	"minimumSystemVersion": "3.1.3",
+	"flags": {
+		"pf2e-mythic-adventures": {
+			"pf2e-homebrew": {
+				"featTraits": {
+					"mythic":"Mythic",
+					"soulrune":"Soulrune",
+					"upkeep":"Upkeep",
+					"dire":"Dire",
+					"mentorship":"Mentorship",
+					"harrower":"Harrower",
+					"abberative-dreamer":"Aberrative Dreamer",
+					"stellar":"Stellar",
+					"reaper":"Reaper",
+					"archmage":"Archmage",
+					"runelord":"Runelord"
+				  },
+				  "spellTraits": {
+					"mythic":"Mythic"
+				  }
+			}
+		}
+	},
+	"url": "https://github.com/yoshisman8/pf2e-mythic-adventures",
+	"manifest": "https://raw.githubusercontent.com/yoshisman8/pf2e-mythic-adventures/main/module.json",
+	"download": "https://github.com/yoshisman8/pf2e-mythic-adventures/archive/refs/heads/main.zip"
+}
