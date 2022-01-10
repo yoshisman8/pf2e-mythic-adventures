@@ -79,6 +79,16 @@
 		  "package": "pf2e-mythic-adventures",
 		  "entity": "Item",
 		  "private": false
+		},
+		{
+		  "label": "MA - Macros",
+		  "type": "Macro",
+		  "name": "ma-macros",
+		  "path": "packs/ma-macros.db",
+		  "system": "pf2e",
+		  "package": "pf2e-mythic-adventures",
+		  "entity": "Macro",
+		  "private": false
 		}
 	],
 	"minimumSystemVersion": "3.1.3",
