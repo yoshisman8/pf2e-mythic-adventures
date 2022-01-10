@@ -3,7 +3,7 @@
 	"title": "Pathfinder 2e Mythic Adventures",
 	"description": "<p>A compendium pack including all you need to play using u/HelpfulDrow's Mythic Adventures expansion.<p/>",
 	"author": "Vyklade",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"system":[
